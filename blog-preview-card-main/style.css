@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Outline&family=Bungee+Shade&family=Bungee+Spice&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  background: rgb(255, 208, 0);
+}
+.container2 {
+  border: 2px solid black;
+  box-shadow: 10px 10px 0;
+  position: relative;
+  background: white;
+  height: 29rem;
+  width: 20.5em;
+  margin: auto;
+  border-radius: 15px;
+}
+
+.contain {
+  margin-bottom: 1rem;
+  margin-top: 7rem;
+}
+
+.img {
+  padding: 20px 20px 0 20px;
+  position: relative;
+  margin: auto;
+}
+img {
+  border-radius: 7px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.learn {
+  padding: 5px;
+  position: relative;
+  margin-left: 20px;
+  text-align: center;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 10px;
+  padding: 5px;
+  border-radius: 4px;
+  background: rgb(255, 208, 0);
+  width: 70px;
+}
+
+.pub {
+  padding: 5px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  position: relative;
+  margin-left: 20px;
+  font-size: 14px;
+  color: rgb(49, 49, 49);
+}
+
+.css {
+  padding: 5px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  position: relative;
+  margin-left: 20px;
+  font-size: 22px;
+  color: rgb(255, 208, 0);
+}
+
+.para {
+  padding: 5px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  position: relative;
+  margin-left: 20px;
+  font-size: 14px;
+  color: rgb(110, 107, 107);
+}
+
+.creator {
+  margin-top: 5px;
+  margin-left: 20px;
+  position: relative;
+  width: 1.6rem;
+  height: 1.6rem;
+}
+.flex {
+  padding: 5px;
+  display: flex;
+}
+
+.cs2 {
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-weight: 700;
+  margin-top: 8px;
+  margin-left: 10px;
+}
+
+.flex2 {
+  padding: 20px;
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 800px) {
+  .flex2 {
+    display: block;
+    padding: 20px;
+    margin: 20px;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 1200px) {
+  .flex2 {
+    display: block;
+    padding: 20px;
+    margin: 20px;
+    justify-content: space-between;
+  }
+}
+@media (max-width: 400px) {
+  .flex2 {
+    display: block;
+    padding: 20px;
+    margin: 20px;
+    justify-content: space-between;
+  }
+}
